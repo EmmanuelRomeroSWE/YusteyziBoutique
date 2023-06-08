@@ -1,0 +1,8 @@
+.branding-wrapper {
+  background-color: white;
+  color: black;
+  min-height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
