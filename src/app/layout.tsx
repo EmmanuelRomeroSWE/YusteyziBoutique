@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 
 import Banner from "@/components/banner/Banner";
 import Branding from "@/components/branding/Branding";
+import Navbar from "@/components/navbar/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Banner />
         <Branding />
+        <Navbar />
         {children}
       </body>
     </html>
