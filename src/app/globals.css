@@ -6,9 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --rose-gold: "";
-  --pink: "";
-  --white: "";
+  --rose-gold: #b86b77;
+  --baby-pink: #eabfb9;
+  --light-red: #f6cfca;
+  --misty-rose: #ffe8e5;
+  --white: white;
 }
 
 @media (prefers-color-scheme: dark) {

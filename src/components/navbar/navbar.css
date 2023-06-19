@@ -1,7 +1,21 @@
 .navbar {
   width: 100%;
   display: flex;
-  grid-template-rows: auto;
-  grid-template-columns: 1 10 1;
-  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+}
+
+.navbar__list {
+  display: inline;
+}
+.navbar__list-item {
+  margin-left: 3rem;
+  display: inline;
+}
+
+.navbar__list-item:hover {
+  color: red;
 }

@@ -5,7 +5,7 @@ const Branding = () => {
   return (
     <>
       <div className="branding-wrapper">
-        <Image src={"/logo.jpeg"} width={300} height={200} alt="branding" />
+        <Image src={"/logo.jpeg"} width={230} height={100} alt="branding" />
       </div>
     </>
   );
